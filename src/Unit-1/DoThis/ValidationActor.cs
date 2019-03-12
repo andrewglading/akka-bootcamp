@@ -1,9 +1,4 @@
 ﻿using Akka.Actor;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace WinTail
 {
@@ -55,6 +50,5 @@ namespace WinTail
             var valid = message.Length % 2 == 0;
             return valid;
         }
-
     }
 }
